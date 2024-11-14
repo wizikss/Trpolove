@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #151845;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.menu{
+    display: flex;
+    gap: 20px; 
+    list-style-type:none;
+    margin-left: -50px;
+}
+.LogoTRPO{
+    margin-top: 30px;
+    max-width: 150px;
+}
+.TextStayEasy{
+    list-style-type: none;
+    color: #D2A852;
+    font-family: "Ingrid Darling", sans-serif;
+    font-size: 52px;
+    margin-left: 7px;
+    margin-top: 75px;
+}
+.Button{
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color: #D2A852;
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 8px;
+}
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #D2A852;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+.search-container button {
+    background-color: #D89A44;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+}
+.search-container button:hover {
+    background-color: #D2A852;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 90px;
+}
